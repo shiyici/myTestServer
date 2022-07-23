@@ -1,0 +1,303 @@
+{
+  "keys": "/Users/shiyici/Desktop/myCode/my-server/config/config.default.js",
+  "middleware": "/Users/shiyici/Desktop/myCode/my-server/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "type": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/shiyici/Desktop/myCode/my-server/node_modules/egg/config/config.default.js"
+}

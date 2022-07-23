@@ -1,0 +1,291 @@
+2022-07-22 19:51:19,578 ERROR 3960 nodejs.ClusterClientNoResponseError: client no response in 67731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3960
+hostname: shiyicideMacBook-Pro.local
+
+2022-07-23 12:34:58,377 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 72542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 12:53:29,060 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1031830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 12:58:54,351 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 325287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 13:14:40,227 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 945868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 13:46:38,119 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1011484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 14:18:50,168 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 929292ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 14:52:10,563 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1072161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:23:57,146 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 943502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:45:29,430 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 258139ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:48:37,456 ERROR 9182 [-/127.0.0.1/-/10ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/shiyici/Desktop/myCode/my-server/app/view
+    at Map.resolve (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js:11:5)
+    at async /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/shiyici/Desktop/myCode/my-server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/shiyici/Desktop/myCode/my-server/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9182
+hostname: 192.168.0.189
+
+2022-07-23 16:28:55,094 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 102395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 16:42:08,513 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 653380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 16:58:07,159 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 958644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 17:48:04,534 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1070047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:03:33,016 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 908629ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:19:53,001 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 979983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:37:16,135 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1043131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:54:59,158 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1063020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:11:31,167 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 992005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:29:15,171 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1064001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:46:22,184 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1027010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:02:21,198 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 959011ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:18:37,209 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 976009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:34:05,233 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 928021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:52:07,220 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1081983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:08:45,211 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 997989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:24:18,211 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 932998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:41:33,223 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1035009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:56:38,237 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 905012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:13:21,255 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1003015ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:28:45,261 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 924003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:44:22,259 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 936997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:59:36,183 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 913920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 23:07:59,938 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 503751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+

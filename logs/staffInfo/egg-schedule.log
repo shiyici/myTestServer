@@ -1,0 +1,42 @@
+2022-07-22 19:31:39,024 INFO 3960 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32300978ms at 2022-07-23 04:30:00.002
+2022-07-22 19:31:39,024 INFO 3960 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16100976ms at 2022-07-23 00:00:00.000
+2022-07-22 19:31:39,024 INFO 3960 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16101976ms at 2022-07-23 00:00:01.000
+2022-07-22 19:31:38,987 INFO 3966 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-22 19:31:38,987 INFO 3966 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-22 19:31:38,987 INFO 3966 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-22 19:32:00,446 INFO 3973 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-22 19:32:00,446 INFO 3973 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-22 19:32:00,446 INFO 3973 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:24:05,314 INFO 8918 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 57954687ms at 2022-07-24 04:30:00.001
+2022-07-23 12:24:05,314 INFO 8918 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 41754686ms at 2022-07-24 00:00:00.000
+2022-07-23 12:24:05,314 INFO 8918 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 41755686ms at 2022-07-24 00:00:01.000
+2022-07-23 12:24:05,265 INFO 8920 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:24:05,265 INFO 8920 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:24:05,265 INFO 8920 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:27:18,470 INFO 9033 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:27:18,470 INFO 9033 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:27:18,470 INFO 9033 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:27:29,880 INFO 9046 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:27:29,880 INFO 9046 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:27:29,880 INFO 9046 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:28:21,516 INFO 9090 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:28:21,516 INFO 9090 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:28:21,516 INFO 9090 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:29:05,579 INFO 9132 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:29:05,579 INFO 9132 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:29:05,579 INFO 9132 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:30:00,260 INFO 9169 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:30:00,260 INFO 9169 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:30:00,260 INFO 9169 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 12:30:25,792 INFO 9182 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 12:30:25,792 INFO 9182 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 12:30:25,792 INFO 9182 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-23 15:58:52,581 INFO 10015 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-23 15:58:52,581 INFO 10015 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-23 15:58:52,581 INFO 10015 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-07-24 07:17:03,396 INFO 1111 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 76376605ms at 2022-07-25 04:30:00.001
+2022-07-24 07:17:03,397 INFO 1111 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 60176604ms at 2022-07-25 00:00:00.001
+2022-07-24 07:17:03,397 INFO 1111 [Timer] /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 60177603ms at 2022-07-25 00:00:01.000
+2022-07-24 07:17:03,344 INFO 1114 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-07-24 07:17:03,344 INFO 1114 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-07-24 07:17:03,344 INFO 1114 [egg-schedule]: register schedule /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

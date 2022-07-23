@@ -1,0 +1,325 @@
+2022-07-22 19:31:38,673 INFO 3960 [egg:logger] init all loggers with options: {"dir":"/Users/shiyici/Desktop/myCode/my-server/logs/staffInfo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"staffInfo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 19:31:38,676 INFO 3960 [egg:core] dump config after load, 1ms
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: ["/Users/shiyici/Desktop/myCode/my-server/app","/Users/shiyici/Desktop/myCode/my-server/config","/Users/shiyici/Desktop/myCode/my-server/mocks","/Users/shiyici/Desktop/myCode/my-server/mocks_proxy","/Users/shiyici/Desktop/myCode/my-server/app.js"]
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app"
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/config"
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks"
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks_proxy"
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app.js"
+2022-07-22 19:31:38,690 INFO 3960 [egg-watcher:agent] watcher start success
+2022-07-22 19:31:38,698 INFO 3960 [egg:core] dump config after ready, 2ms
+2022-07-22 19:32:00,135 WARN 3960 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/home.js change
+2022-07-22 19:31:59,930 INFO 3960 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/home.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":881901,"size":216,"blocks":8,"atimeMs":1658489519898.722,"mtimeMs":1658489519866.477,"ctimeMs":1658489519866.477,"birthtimeMs":1658207933339.4844,"atime":"2022-07-22T11:31:59.899Z","mtime":"2022-07-22T11:31:59.866Z","ctime":"2022-07-22T11:31:59.866Z","birthtime":"2022-07-19T05:18:53.339Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 19:51:19,578 ERROR 3960 nodejs.ClusterClientNoResponseError: client no response in 67731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3960
+hostname: shiyicideMacBook-Pro.local
+
+2022-07-23 12:24:04,939 INFO 8918 [egg:logger] init all loggers with options: {"dir":"/Users/shiyici/Desktop/myCode/my-server/logs/staffInfo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"staffInfo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-23 12:24:04,942 INFO 8918 [egg:core] dump config after load, 1ms
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: ["/Users/shiyici/Desktop/myCode/my-server/app","/Users/shiyici/Desktop/myCode/my-server/config","/Users/shiyici/Desktop/myCode/my-server/mocks","/Users/shiyici/Desktop/myCode/my-server/mocks_proxy","/Users/shiyici/Desktop/myCode/my-server/app.js"]
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app"
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/config"
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks"
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks_proxy"
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app.js"
+2022-07-23 12:24:04,958 INFO 8918 [egg-watcher:agent] watcher start success
+2022-07-23 12:24:04,964 INFO 8918 [egg:core] dump config after ready, 2ms
+2022-07-23 12:27:17,974 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":0,"blocks":0,"atimeMs":1658550437912.3262,"mtimeMs":1658550437912.3262,"ctimeMs":1658550437912.3262,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:27:17.912Z","mtime":"2022-07-23T04:27:17.912Z","ctime":"2022-07-23T04:27:17.912Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:27:18,176 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/news rename
+2022-07-23 12:27:29,584 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/news rename
+2022-07-23 12:27:29,382 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":0,"blocks":0,"atimeMs":1658550437912.3262,"mtimeMs":1658550437912.3262,"ctimeMs":1658550449371.563,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:27:17.912Z","mtime":"2022-07-23T04:27:17.912Z","ctime":"2022-07-23T04:27:29.372Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:27:29,382 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news","remove":true,"isDirectory":false,"isFile":false}
+2022-07-23 12:28:21,191 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/news.js change
+2022-07-23 12:28:20,631 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550500630.3198,"mtimeMs":1658550500567.9768,"ctimeMs":1658550500567.9768,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:20.630Z","mtime":"2022-07-23T04:28:20.568Z","ctime":"2022-07-23T04:28:20.568Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:28:20,776 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550500630.3198,"mtimeMs":1658550500764.0867,"ctimeMs":1658550500764.0867,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:20.630Z","mtime":"2022-07-23T04:28:20.764Z","ctime":"2022-07-23T04:28:20.764Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:28:20,827 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550500630.3198,"mtimeMs":1658550500764.0867,"ctimeMs":1658550500764.0867,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:20.630Z","mtime":"2022-07-23T04:28:20.764Z","ctime":"2022-07-23T04:28:20.764Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:28:20,938 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550500630.3198,"mtimeMs":1658550500926.9307,"ctimeMs":1658550500926.9307,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:20.630Z","mtime":"2022-07-23T04:28:20.927Z","ctime":"2022-07-23T04:28:20.927Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:28:20,989 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550500630.3198,"mtimeMs":1658550500926.9307,"ctimeMs":1658550500926.9307,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:20.630Z","mtime":"2022-07-23T04:28:20.927Z","ctime":"2022-07-23T04:28:20.927Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:29:05,061 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550501566.3613,"mtimeMs":1658550544997.8447,"ctimeMs":1658550544997.8447,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:28:21.566Z","mtime":"2022-07-23T04:29:04.998Z","ctime":"2022-07-23T04:29:04.998Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:29:05,264 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/news.js change
+2022-07-23 12:29:59,945 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/controller/news.js change
+2022-07-23 12:29:59,742 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":977271,"size":373,"blocks":8,"atimeMs":1658550545686.7776,"mtimeMs":1658550599678.153,"ctimeMs":1658550599678.153,"birthtimeMs":1658550437912.3262,"atime":"2022-07-23T04:29:05.687Z","mtime":"2022-07-23T04:29:59.678Z","ctime":"2022-07-23T04:29:59.678Z","birthtime":"2022-07-23T04:27:17.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:30:25,080 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/router.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":881897,"size":230,"blocks":8,"atimeMs":1658550625049.344,"mtimeMs":1658550625016.628,"ctimeMs":1658550625016.628,"birthtimeMs":1658207933338.6821,"atime":"2022-07-23T04:30:25.049Z","mtime":"2022-07-23T04:30:25.017Z","ctime":"2022-07-23T04:30:25.017Z","birthtime":"2022-07-19T05:18:53.339Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:30:25,228 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/router.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":881897,"size":230,"blocks":8,"atimeMs":1658550625049.344,"mtimeMs":1658550625216.1392,"ctimeMs":1658550625216.1392,"birthtimeMs":1658207933338.6821,"atime":"2022-07-23T04:30:25.049Z","mtime":"2022-07-23T04:30:25.216Z","ctime":"2022-07-23T04:30:25.216Z","birthtime":"2022-07-19T05:18:53.339Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:30:25,279 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/app/router.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":881897,"size":230,"blocks":8,"atimeMs":1658550625049.344,"mtimeMs":1658550625216.1392,"ctimeMs":1658550625216.1392,"birthtimeMs":1658207933338.6821,"atime":"2022-07-23T04:30:25.049Z","mtime":"2022-07-23T04:30:25.216Z","ctime":"2022-07-23T04:30:25.216Z","birthtime":"2022-07-19T05:18:53.339Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 12:30:25,481 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/app/router.js change
+2022-07-23 12:34:58,378 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 72542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 12:53:29,060 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1031830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 12:58:54,351 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 325287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 13:14:40,228 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 945868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 13:46:38,119 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1011484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 14:18:50,169 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 929292ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 14:52:10,564 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1072161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:23:57,146 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 943502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:45:29,430 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 258139ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 15:58:52,270 WARN 8918 [agent:development] reload worker because /Users/shiyici/Desktop/myCode/my-server/config/plugin.js change
+2022-07-23 15:58:52,069 INFO 8918 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shiyici/Desktop/myCode/my-server/config/plugin.js","stat":{"dev":16777233,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":881899,"size":204,"blocks":8,"atimeMs":1658563132038.7622,"mtimeMs":1658563132005.9788,"ctimeMs":1658563132005.9788,"birthtimeMs":1658207933339.078,"atime":"2022-07-23T07:58:52.039Z","mtime":"2022-07-23T07:58:52.006Z","ctime":"2022-07-23T07:58:52.006Z","birthtime":"2022-07-19T05:18:53.339Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 16:28:55,094 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 102395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 16:42:08,513 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 653380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 16:58:07,159 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 958644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 17:48:04,534 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1070047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:03:33,017 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 908629ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:19:53,002 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 979983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:37:16,135 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1043131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 18:54:59,158 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1063020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:11:31,167 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 992005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:29:15,171 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1064001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 19:46:22,184 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1027010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:02:21,198 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 959011ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:18:37,209 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 976009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:34:05,233 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 928021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 20:52:07,220 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1081983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:08:45,211 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 997989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:24:18,211 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 932998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:41:33,223 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1035009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 21:56:38,238 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 905012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:13:21,255 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 1003015ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:28:45,261 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 924003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:44:22,259 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 936997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 22:59:36,183 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 913920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-23 23:07:59,938 ERROR 8918 nodejs.ClusterClientNoResponseError: client no response in 503751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shiyici/Desktop/myCode/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 8918
+hostname: 192.168.0.189
+
+2022-07-24 07:17:03,018 INFO 1111 [egg:logger] init all loggers with options: {"dir":"/Users/shiyici/Desktop/myCode/my-server/logs/staffInfo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"staffInfo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-24 07:17:03,021 INFO 1111 [egg:core] dump config after load, 1ms
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: ["/Users/shiyici/Desktop/myCode/my-server/app","/Users/shiyici/Desktop/myCode/my-server/config","/Users/shiyici/Desktop/myCode/my-server/mocks","/Users/shiyici/Desktop/myCode/my-server/mocks_proxy","/Users/shiyici/Desktop/myCode/my-server/app.js"]
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app"
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/config"
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks"
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/mocks_proxy"
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher] Start watching: "/Users/shiyici/Desktop/myCode/my-server/app.js"
+2022-07-24 07:17:03,037 INFO 1111 [egg-watcher:agent] watcher start success
+2022-07-24 07:17:03,044 INFO 1111 [egg:core] dump config after ready, 2ms

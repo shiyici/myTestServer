@@ -1,0 +1,19 @@
+2022-07-23 15:48:37,456 ERROR 9182 [-/127.0.0.1/-/10ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/shiyici/Desktop/myCode/my-server/app/view
+    at Map.resolve (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/shiyici/Desktop/myCode/my-server/app/controller/news.js:11:5)
+    at async /Users/shiyici/Desktop/myCode/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/shiyici/Desktop/myCode/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/shiyici/Desktop/myCode/my-server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/shiyici/Desktop/myCode/my-server/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9182
+hostname: 192.168.0.189
+
